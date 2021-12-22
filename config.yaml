@@ -1,6 +1,7 @@
-baseurl: /
+baseurl: "https://liuwei-1010.netlify.app/"
+relativeurls: true
 languageCode: en-us
-title: A Hugo website
+title: "Liuwei | 刘威"
 theme: hugo-lithium
 googleAnalytics: ''
 disqusShortname: ''
@@ -14,12 +15,11 @@ permalinks:
   post: /:year/:month/:day/:slug/
 menu:
   main:
-    - name: About
+    - name: 关于
       url: /about/
     - name: GitHub
-      url: https://github.com/rstudio/blogdown
-    - name: Twitter
-      url: https://twitter.com/rstudio
+      url: https://github.com/HushWay/Blog_LW
+
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
@@ -34,7 +34,7 @@ params:
   logo:
     alt: Logo
     height: 50
-    url: logo.png
+    url: logo.jpg
     width: 50
 markup:
   defaultMarkdownHandler: goldmark
