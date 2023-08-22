@@ -1,7 +1,7 @@
 baseurl: "https://liuwei-1010.netlify.app/"
 relativeurls: true
 languageCode: en-us
-title: "Liuwei | 刘威"
+title: "Liuwei"
 theme: hugo-lithium
 googleAnalytics: ''
 disqusShortname: ''
